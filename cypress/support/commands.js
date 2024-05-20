@@ -23,3 +23,34 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+
+Cypress.Commands.add('removeClass', ()=> {
+    cy.get('#topBanner-slide-v2').children('div').eq(1).then( removeClass => {
+        removeClass.removeAttr('class')
+      })
+      cy.get('#topBanner-slide-v2').children('div').eq(2).then( removeClass => {
+        removeClass.removeAttr('class')
+      })
+      cy.get('#topBanner-slide-v2').children('div').eq(3).then( removeClass => {
+        removeClass.removeAttr('class')
+      })
+      cy.get('#topBanner-slide-v2').children('div').eq(4).then( removeClass => {
+        removeClass.removeAttr('class')
+      })
+      cy.get('#topBanner-slide-v2').children('div').eq(5).then( removeClass => {
+        removeClass.removeAttr('class')
+      })
+      cy.get('#topBanner-slide-v2').children('div').eq(6).then( removeClass => {
+        removeClass.removeAttr('class')
+      })
+      cy.get('#topBanner-slide-v2').children('div').eq(7).then( removeClass => {
+        removeClass.removeAttr('class')
+      })
+      cy.get('#topBanner-slide-v2').children('div').eq(8).then( removeClass => {
+        removeClass.removeAttr('class')
+      })
+      cy.get('#topBanner-slide-v2').children('div').eq(9).then( removeClass => {
+        removeClass.removeAttr('class')
+      })
+})
