@@ -13,6 +13,7 @@
     "cypress-plugin-api": "^2.11.1"
   },
   "devDependencies": {
-    "cypress-mochawesome-reporter": "^3.8.2"
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "rgb-hex": "^4.1.0"
   }
 }
